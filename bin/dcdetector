@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Ruby internal
+# Project internal
+require 'dcdetector'
+require 'dcdetector/cli'
+# External
+
+DCDetector::CLI
