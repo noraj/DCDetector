@@ -7,6 +7,7 @@ require 'docopt'
 require 'paint'
 
 module DCDetector
+  # module use for the CLI binary only, not required by teh library
   module CLI
     doc = <<~DOCOPT
       DCDetector v#{DCDetector::VERSION}
@@ -30,7 +31,7 @@ module DCDetector
       Paint.mode = 0 if args['--no-color']
       pp args if args['--debug']
       if args['--domain']
-        dns_opts = args['--nameserver'].nil? ? nil : {nameserver: [args['--nameserver']]}
+        dns_opts = args['--nameserver'].nil? ? nil : { nameserver: [args['--nameserver']] }
         dcd = DCDetector::App.new(args['--domain'], dns_opts)
         puts Paint['DC(s) name', :underline, :bold, 'dark turquoise']
         dcd.dc_name.each do |name|
