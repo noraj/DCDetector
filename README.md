@@ -9,17 +9,19 @@
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/dcdetector.svg)](https://repology.org/project/dcdetector/versions)
 
-![logo](docs/_media/logo.png)
+![logo](https://github.com/noraj/DCDetector/raw/master/docs/_media/logo.png)
 
 > Spot all domain controllers in a Microsoft Active Directory environment.
 
 **CLI**
 
-![CLI example](TODO)
+`dcd -d za.tryhackme.com -s 10.200.28.101`
+
+![CLI example](https://i.imgur.com/IFx0yBb.png)
 
 **Library**
 
-![library example](TODO)
+![library example](https://i.imgur.com/F3YGeKS.png)
 
 ## Features
 
@@ -32,11 +34,14 @@
 $ gem install dcdetector
 ```
 
-Check the [installation](https://noraj.github.io/dcdetector/TODO) page on the documentation to discover more methods.
+Check the [installation](https://noraj.github.io/DCDetector/yard/file.Installation.html) page on the documentation to discover more methods.
 
 ## Documentation
 
-Homepage / Documentation: https://noraj.github.io/dcdetector/
+Documentation:
+
+- [Homepage](https://noraj.github.io/dcdetector/)
+- [Usage](https://noraj.github.io/DCDetector/yard/file.Usage.html)
 
 ## Author
 

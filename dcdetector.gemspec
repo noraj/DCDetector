@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.name          = 'dcdetector'
   s.version       = DCDetector::VERSION
   s.platform      = Gem::Platform::RUBY
-  s.summary       = ''
-  s.description   = ''
+  s.summary       = 'Spot all domain controllers in a Microsoft Active Directory environment.'
+  s.description   = 'Find computer name, FQDN, and IP address(es) of all DCs.'
   s.authors       = ['Alexandre ZANNI']
   s.email         = 'alexandre.zanni@europe.com'
   s.homepage      = 'https://noraj.github.io/dcdetector/'
@@ -21,9 +21,9 @@ Gem::Specification.new do |s|
   s.metadata = {
     'yard.run'              => 'yard',
     'bug_tracker_uri'       => 'https://github.com/noraj/DCDetector/issues',
-    'changelog_uri'         => 'https://noraj.github.io/DCDetector/TODO',
-    'documentation_uri'     => 'https://noraj.github.io/DCDetector/TODO',
-    'homepage_uri'          => 'https://noraj.github.io/DCDetector/TODO',
+    'changelog_uri'         => 'https://noraj.github.io/DCDetector/yard/file.CHANGELOG.html',
+    'documentation_uri'     => 'https://noraj.github.io/DCDetector/yard/file.Usage.html',
+    'homepage_uri'          => 'https://noraj.github.io/DCDetector/yard/',
     'source_code_uri'       => 'https://github.com/noraj/DCDetector/',
     'rubygems_mfa_required' => 'true'
   }
