@@ -19,7 +19,7 @@ module DCDetector
 
       Options:
         -d <domain.tld>, --domain <domain.tld>       Active Directory domain
-        -s <ip_address>, --nameserver <ip_address>  The IP address of the domain DNS server. If not provided use your system DNS.
+        -s <ip_address>, --nameserver <ip_address>   The IP address of the domain DNS server. If not provided uses your system DNS.
         --no-color                      Disable colorized output
         --debug                         Display arguments
         -h, --help                      Show this screen
