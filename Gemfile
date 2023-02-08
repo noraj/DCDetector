@@ -18,7 +18,7 @@ end
 
 # Needed for linting
 group :development, :lint do
-  gem 'rubocop', '~> 1.44'
+  gem 'rubocop', '~> 1.45'
 end
 
 group :development, :docs do
