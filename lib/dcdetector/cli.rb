@@ -29,7 +29,7 @@ module DCDetector
     begin
       args = Docopt.docopt(doc, version: DCDetector::VERSION)
       Paint.mode = 0 if args['--no-color']
-      pp args if args['--debug']
+      puts args if args['--debug']
       if args['--domain']
         dns_opts = args['--nameserver'].nil? ? nil : { nameserver: [args['--nameserver']] }
         dcd = DCDetector::App.new(args['--domain'], dns_opts)
