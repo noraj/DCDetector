@@ -7,7 +7,7 @@ require 'docopt'
 require 'paint'
 
 module DCDetector
-  # module use for the CLI binary only, not required by teh library
+  # module use for the CLI binary only, not required by the library
   module CLI
     doc = <<~DOCOPT
       DCDetector v#{DCDetector::VERSION}
