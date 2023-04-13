@@ -3,7 +3,7 @@
 
 ## CLI
 
-As binary name you cna use both `dcdetector` or the shorter `dcd`.
+As binary name you can use both `dcdetector` or the shorter `dcd`.
 
 ```plaintext
 $ dcd --help
@@ -57,7 +57,7 @@ DC(s) IP address
 
 ## Library
 
-See [DCDetector::App](http://localhost:8808/docs/DCDetector/App).
+See [DCDetector::App](https://noraj.github.io/DCDetector/yard/DCDetector/App.html).
 
 ### Examples
 
