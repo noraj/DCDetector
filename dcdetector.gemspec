@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     'documentation_uri'     => 'https://noraj.github.io/DCDetector/yard/file.Usage.html',
     'homepage_uri'          => 'https://noraj.github.io/DCDetector/yard/',
     'source_code_uri'       => 'https://github.com/noraj/DCDetector/',
+    'funding_uri'           => 'https://github.com/sponsors/noraj',
     'rubygems_mfa_required' => 'true'
   }
 
