@@ -57,4 +57,4 @@ DEPENDENCIES
   yard-coderay (~> 0.1)
 
 BUNDLED WITH
-   2.4.1
+   2.5.6
