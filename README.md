@@ -1,3 +1,7 @@
+# DEPRECATED. DC Detector features have been implemented in [AD Assault](https://github.com/noraj/ADAssault) CLI command `dns find_dcs` and library class `ADAssault::DNS::FindDCs`. Please use AD Assault now.
+
+---
+
 # DC Detector
 
 [![Gem Version](https://badge.fury.io/rb/dcdetector.svg)](https://badge.fury.io/rb/dcdetector)
